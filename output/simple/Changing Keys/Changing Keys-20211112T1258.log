@@ -1,0 +1,72 @@
+2021-11-12 12:58:09,982 INFO [Changing Keys]                 Book.java:568  | 1 sheet in .\samples\simple\Changing Keys.png
+2021-11-12 12:58:10,174 INFO []                 Book.java:2144 | Stored /book.xml
+2021-11-12 12:58:10,174 INFO []                 Book.java:2090 | Book stored as E:\Coding\Transpose\OMR-POC\output\simple\Changing Keys\Changing Keys.omr
+2021-11-12 12:58:10,179 INFO []                 Book.java:1803 | Book reaching PAGE on sheets:[#1]
+2021-11-12 12:58:10,181 INFO [Changing Keys]       StepMonitoring.java:96   | LOAD
+2021-11-12 12:58:10,235 INFO [Changing Keys]                 Book.java:1665 | Loaded image 1 1107x598 from .\samples\simple\Changing Keys.png
+2021-11-12 12:58:10,239 INFO [Changing Keys]            ImageUtil.java:88   | Converting max RGB to gray
+2021-11-12 12:58:10,270 INFO [Changing Keys]       StepMonitoring.java:96   | BINARY
+2021-11-12 12:58:10,383 INFO [Changing Keys]       StepMonitoring.java:96   | SCALE
+2021-11-12 12:58:10,393 INFO [Changing Keys]         ScaleBuilder.java:662  | Other combo peak too different (96,96,96), discarded
+2021-11-12 12:58:10,397 INFO [Changing Keys]         ScaleBuilder.java:234  | Beam  guessed height:  8 -- 0.50 of [4..11] range
+2021-11-12 12:58:10,399 INFO [Changing Keys]         ScaleBuilder.java:253  | Beam measured height:  7 -- 0.43 of [4..11] range at 115% of needed quorum
+2021-11-12 12:58:10,400 INFO [Changing Keys]         ScaleBuilder.java:266  | Beam height: 7
+2021-11-12 12:58:10,401 INFO [Changing Keys]            ScaleStep.java:86   | Scale{line(3,3,4) interline(12,12,13) beam(7)}
+2021-11-12 12:58:10,403 INFO [Changing Keys]       StepMonitoring.java:96   | GRID
+2021-11-12 12:58:10,523 INFO [Changing Keys]       LinesRetriever.java:439  | Global slope: 0.00000
+2021-11-12 12:58:10,551 INFO [Changing Keys]    ClustersRetriever.java:266  | Retrieved line clusters: 3 of sizes [5] with interline(12,12,13)
+2021-11-12 12:58:10,607 INFO [Changing Keys]            PeakGraph.java:181  | Systems: #1[1] #2[2] #3[3]
+2021-11-12 12:58:10,735 INFO [Changing Keys]        SystemManager.java:838  | 1 part along 3 systems
+2021-11-12 12:58:10,737 INFO [Changing Keys]       StepMonitoring.java:96   | HEADERS
+2021-11-12 12:58:10,954 INFO [Changing Keys]      BasicClassifier.java:366  | Classifier loaded XML norms.
+2021-11-12 12:58:10,958 INFO [Changing Keys]   AbstractClassifier.java:352  | Classifier data loaded from default uri jar:file:/E:/Coding/Transpose/audiveris/build/distributions/Audiveris/lib/audiveris.jar!/res/basic-classifier.zip
+2021-11-12 12:58:11,634 WARN [Changing Keys]          ClefBuilder.java:577  | Staff#3 no header clef.
+2021-11-12 12:58:11,646 INFO [Changing Keys]       StepMonitoring.java:96   | STEM_SEEDS
+2021-11-12 12:58:11,697 INFO [Changing Keys]            ImageUtil.java:202  | Discarding alpha band ...
+2021-11-12 12:58:11,989 INFO [Changing Keys]            ImageUtil.java:88   | Converting max RGB to gray
+2021-11-12 12:58:12,035 INFO [Changing Keys]        StemSeedsStep.java:95   | stem(3 max:4)
+2021-11-12 12:58:12,072 INFO [Changing Keys]       StepMonitoring.java:96   | BEAMS
+2021-11-12 12:58:12,325 INFO [Changing Keys]       BlackHeadSizer.java:99   | Spots black-head retrieval diameter: 10.8
+2021-11-12 12:58:12,415 INFO [Changing Keys]       StepMonitoring.java:96   | LEDGERS
+2021-11-12 12:58:12,443 INFO [Changing Keys]       StepMonitoring.java:96   | HEADS
+2021-11-12 12:58:12,720 INFO [Changing Keys]     NoteHeadsBuilder.java:976  | S#1 7 heads purged
+2021-11-12 12:58:12,820 INFO [Changing Keys]     NoteHeadsBuilder.java:976  | S#2 15 heads purged
+2021-11-12 12:58:12,925 INFO [Changing Keys]     NoteHeadsBuilder.java:972  | S#3 4 beams purged
+2021-11-12 12:58:12,926 INFO [Changing Keys]     NoteHeadsBuilder.java:976  | S#3 1 heads purged
+2021-11-12 12:58:12,928 INFO [Changing Keys]        HeadSeedTally.java:208  | Scale information: HeadSeeds{NOTEHEAD_BLACK[L:1.3,R:0.2]}
+2021-11-12 12:58:12,929 INFO [Changing Keys]       StepMonitoring.java:96   | STEMS
+2021-11-12 12:58:13,171 INFO [Changing Keys]       StepMonitoring.java:96   | REDUCTION
+2021-11-12 12:58:13,212 INFO [Changing Keys]        ReductionStep.java:118  | Stems free length median value: 42 pixels, 3.5 interlines
+2021-11-12 12:58:13,215 INFO [Changing Keys]       StepMonitoring.java:96   | CUE_BEAMS
+2021-11-12 12:58:13,217 INFO [Changing Keys]       StepMonitoring.java:96   | TEXTS
+2021-11-12 12:58:14,249 INFO [Changing Keys]       StepMonitoring.java:96   | MEASURES
+2021-11-12 12:58:14,256 INFO [Changing Keys]                 Page.java:273  | 10 raw measures: [4 in system#1, 3 in system#2, 3 in system#3]
+2021-11-12 12:58:14,256 INFO [Changing Keys]       StepMonitoring.java:96   | CHORDS
+2021-11-12 12:58:14,263 INFO [Changing Keys]       StepMonitoring.java:96   | CURVES
+2021-11-12 12:58:14,508 INFO [Changing Keys]         SlursBuilder.java:160  | Slurs: 0
+2021-11-12 12:58:14,511 INFO [Changing Keys]      SegmentsBuilder.java:114  | Segments: 1
+2021-11-12 12:58:14,517 INFO [Changing Keys]       StepMonitoring.java:96   | SYMBOLS
+2021-11-12 12:58:14,747 INFO [Changing Keys]       StepMonitoring.java:96   | LINKS
+2021-11-12 12:58:14,758 INFO [Changing Keys]       StepMonitoring.java:96   | RHYTHMS
+2021-11-12 12:58:14,786 INFO [Changing Keys]                Voice.java:293  | Measure{#8P1} Voice{#1 excess:3/4} too long
+2021-11-12 12:58:14,791 INFO [Changing Keys]                Voice.java:293  | Measure{#9P1} Voice{#2 excess:1} too long
+2021-11-12 12:58:14,792 INFO [Changing Keys]                Voice.java:293  | Measure{#9P1} Voice{#3 excess:5/4} too long
+2021-11-12 12:58:14,792 INFO [Changing Keys]                Voice.java:293  | Measure{#9P1} Voice{#4 excess:1} too long
+2021-11-12 12:58:14,794 INFO [Changing Keys]                Voice.java:293  | Measure{#10P1} Voice{#1 excess:3/2} too long
+2021-11-12 12:58:14,795 INFO [Changing Keys]       StepMonitoring.java:96   | PAGE
+2021-11-12 12:58:14,802 INFO [Changing Keys]                Voice.java:293  | Measure{#8P1} Voice{#1 excess:3/4} too long
+2021-11-12 12:58:14,803 INFO [Changing Keys]                Voice.java:293  | Measure{#9P1} Voice{#2 excess:1} too long
+2021-11-12 12:58:14,804 INFO [Changing Keys]                Voice.java:293  | Measure{#9P1} Voice{#3 excess:5/4} too long
+2021-11-12 12:58:14,805 INFO [Changing Keys]                Voice.java:293  | Measure{#9P1} Voice{#4 excess:1} too long
+2021-11-12 12:58:14,810 INFO [Changing Keys]                Voice.java:293  | Measure{#10P1} Voice{#1 excess:3/2} too long
+2021-11-12 12:58:14,815 INFO [Changing Keys]            SheetStub.java:1109 | Stub#1 storing
+2021-11-12 12:58:14,825 INFO [Changing Keys]                 Book.java:2144 | Stored /book.xml
+2021-11-12 12:58:14,852 INFO [Changing Keys]           DataHolder.java:297  | Stored /sheet#1/BINARY.png
+2021-11-12 12:58:15,236 INFO [Changing Keys]                Sheet.java:1285 | Stored /sheet#1/sheet#1.xml
+2021-11-12 12:58:15,241 INFO [Changing Keys]            SheetStub.java:1114 | Disposed sheet
+2021-11-12 12:58:15,409 INFO [Changing Keys]            SheetStub.java:688  | Loaded /sheet#1/sheet#1.xml
+2021-11-12 12:58:15,411 INFO [Changing Keys]                 Book.java:1923 | Scores built: 1
+2021-11-12 12:58:15,698 INFO [Changing Keys]      PartwiseBuilder.java:2172 | Exporting sheet(s): [#1]
+2021-11-12 12:58:15,730 INFO [Changing Keys]        ScoreExporter.java:92   | Score Changing Keys exported to E:\Coding\Transpose\OMR-POC\output\simple\Changing Keys\Changing Keys.mxl
+2021-11-12 12:58:15,795 INFO [Changing Keys]                 Book.java:2144 | Stored /book.xml
+2021-11-12 12:58:15,796 INFO [Changing Keys]                 Book.java:2090 | Book stored as E:\Coding\Transpose\OMR-POC\output\simple\Changing Keys\Changing Keys.omr

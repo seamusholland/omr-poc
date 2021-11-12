@@ -1,0 +1,3 @@
+2021-11-12 12:55:45,590 INFO [Single Part, Single Stave]                 Book.java:568  | 1 sheet in .\samples\simple\Single Part, Single Stave.png
+2021-11-12 12:55:45,759 INFO []                 Book.java:2144 | Stored /book.xml
+2021-11-12 12:55:45,760 INFO []                 Book.java:2090 | Book stored as E:\Coding\Transpose\OMR-POC\output\simple\Single Part, Single Stave\Single Part, Single Stave.omr

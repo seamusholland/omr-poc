@@ -1,0 +1,63 @@
+2021-11-12 12:58:18,206 INFO [Changing Time Signatures]                 Book.java:568  | 1 sheet in .\samples\simple\Changing Time Signatures.png
+2021-11-12 12:58:18,345 INFO []                 Book.java:2144 | Stored /book.xml
+2021-11-12 12:58:18,346 INFO []                 Book.java:2090 | Book stored as E:\Coding\Transpose\OMR-POC\output\simple\Changing Time Signatures\Changing Time Signatures.omr
+2021-11-12 12:58:18,352 INFO []                 Book.java:1803 | Book reaching PAGE on sheets:[#1]
+2021-11-12 12:58:18,354 INFO [Changing Time Signatures]       StepMonitoring.java:96   | LOAD
+2021-11-12 12:58:18,409 INFO [Changing Time Signatures]                 Book.java:1665 | Loaded image 1 1115x598 from .\samples\simple\Changing Time Signatures.png
+2021-11-12 12:58:18,413 INFO [Changing Time Signatures]            ImageUtil.java:88   | Converting max RGB to gray
+2021-11-12 12:58:18,446 INFO [Changing Time Signatures]       StepMonitoring.java:96   | BINARY
+2021-11-12 12:58:18,543 INFO [Changing Time Signatures]       StepMonitoring.java:96   | SCALE
+2021-11-12 12:58:18,556 INFO [Changing Time Signatures]         ScaleBuilder.java:234  | Beam  guessed height: 10 -- 0.50 of [5..14] range
+2021-11-12 12:58:18,557 INFO [Changing Time Signatures]         ScaleBuilder.java:253  | Beam measured height: 11 -- 0.67 of [5..14] range at 181% of needed quorum
+2021-11-12 12:58:18,558 INFO [Changing Time Signatures]         ScaleBuilder.java:266  | Beam height: 11
+2021-11-12 12:58:18,559 INFO [Changing Time Signatures]            ScaleStep.java:86   | Scale{line(3,4,5) interline(15,15,16) beam(11)}
+2021-11-12 12:58:18,560 INFO [Changing Time Signatures]       StepMonitoring.java:96   | GRID
+2021-11-12 12:58:18,676 INFO [Changing Time Signatures]       LinesRetriever.java:439  | Global slope: 0.00000
+2021-11-12 12:58:18,690 INFO [Changing Time Signatures]    ClustersRetriever.java:266  | Retrieved line clusters: 3 of sizes [5] with interline(15,15,16)
+2021-11-12 12:58:18,738 INFO [Changing Time Signatures]            PeakGraph.java:181  | Systems: #1[1] #2[2] #3[3]
+2021-11-12 12:58:18,866 INFO [Changing Time Signatures]        SystemManager.java:838  | 1 part along 3 systems
+2021-11-12 12:58:18,868 INFO [Changing Time Signatures]       StepMonitoring.java:96   | HEADERS
+2021-11-12 12:58:19,060 INFO [Changing Time Signatures]      BasicClassifier.java:366  | Classifier loaded XML norms.
+2021-11-12 12:58:19,066 INFO [Changing Time Signatures]   AbstractClassifier.java:352  | Classifier data loaded from default uri jar:file:/E:/Coding/Transpose/audiveris/build/distributions/Audiveris/lib/audiveris.jar!/res/basic-classifier.zip
+2021-11-12 12:58:19,427 INFO [Changing Time Signatures]       StepMonitoring.java:96   | STEM_SEEDS
+2021-11-12 12:58:19,449 INFO [Changing Time Signatures]            ImageUtil.java:202  | Discarding alpha band ...
+2021-11-12 12:58:19,749 INFO [Changing Time Signatures]            ImageUtil.java:88   | Converting max RGB to gray
+2021-11-12 12:58:19,815 INFO [Changing Time Signatures]        StemSeedsStep.java:95   | stem(4 max:4)
+2021-11-12 12:58:19,843 INFO [Changing Time Signatures]       StepMonitoring.java:96   | BEAMS
+2021-11-12 12:58:20,220 INFO [Changing Time Signatures]       BlackHeadSizer.java:99   | Spots black-head retrieval diameter: 13.5
+2021-11-12 12:58:20,245 INFO [Changing Time Signatures]       BlackHeadSizer.java:247  | Core black head count: 13 blackHead(width:22.0~0.0 height:18.7~0.9)
+2021-11-12 12:58:20,248 INFO [Changing Time Signatures]       BlackHeadSizer.java:252  | MusicFont{name:MusicalSymbols pointSize:74}
+2021-11-12 12:58:20,349 INFO [Changing Time Signatures]       StepMonitoring.java:96   | LEDGERS
+2021-11-12 12:58:20,404 INFO [Changing Time Signatures]       StepMonitoring.java:96   | HEADS
+2021-11-12 12:58:21,060 INFO [Changing Time Signatures]        HeadSeedTally.java:208  | Scale information: HeadSeeds{NOTEHEAD_BLACK[L:4.5,R:0.5]}
+2021-11-12 12:58:21,061 INFO [Changing Time Signatures]       StepMonitoring.java:96   | STEMS
+2021-11-12 12:58:21,226 INFO [Changing Time Signatures]       StepMonitoring.java:96   | REDUCTION
+2021-11-12 12:58:21,271 INFO [Changing Time Signatures]        ReductionStep.java:118  | Stems free length median value: 52 pixels, 3.5 interlines
+2021-11-12 12:58:21,273 INFO [Changing Time Signatures]       StepMonitoring.java:96   | CUE_BEAMS
+2021-11-12 12:58:21,274 INFO [Changing Time Signatures]       StepMonitoring.java:96   | TEXTS
+2021-11-12 12:58:23,474 INFO [Changing Time Signatures]             TextWord.java:243  |       abnormal font ratio 2.15 TextWord{ "m." bounds[237,574,49,20] conf:0.56 base[237,594]-[285,594] FontInfo{Verdana_Bold B-22}}
+2021-11-12 12:58:23,476 INFO [Changing Time Signatures]             TextWord.java:243  |       abnormal font ratio 3.25 TextWord{ "me" bounds[453,575,96,21] conf:0.61 base[453,594]-[548,594] FontInfo{Verdana_Bold B-22}}
+2021-11-12 12:58:23,478 INFO [Changing Time Signatures]             TextWord.java:243  |       abnormal font ratio 2.12 TextWord{ "'" bounds[616,584,7,4] conf:0.61 base[616,594]-[622,594] FontInfo{Verdana_Bold B-22}}
+2021-11-12 12:58:23,483 INFO [Changing Time Signatures]       StepMonitoring.java:96   | MEASURES
+2021-11-12 12:58:23,491 INFO [Changing Time Signatures]                 Page.java:273  | 11 raw measures: [2 in system#1, 5 in system#2, 4 in system#3]
+2021-11-12 12:58:23,491 INFO [Changing Time Signatures]       StepMonitoring.java:96   | CHORDS
+2021-11-12 12:58:23,504 INFO [Changing Time Signatures]       StepMonitoring.java:96   | CURVES
+2021-11-12 12:58:23,667 INFO [Changing Time Signatures]         SlursBuilder.java:160  | Slurs: 0
+2021-11-12 12:58:23,670 INFO [Changing Time Signatures]      SegmentsBuilder.java:114  | Segments: 0
+2021-11-12 12:58:23,674 INFO [Changing Time Signatures]       StepMonitoring.java:96   | SYMBOLS
+2021-11-12 12:58:23,809 INFO [Changing Time Signatures]       StepMonitoring.java:96   | LINKS
+2021-11-12 12:58:23,828 INFO [Changing Time Signatures]       StepMonitoring.java:96   | RHYTHMS
+2021-11-12 12:58:23,862 INFO [Changing Time Signatures]                Voice.java:293  | Measure{#9P1} Voice{#1 excess:1/8} too long
+2021-11-12 12:58:23,866 INFO [Changing Time Signatures]       StepMonitoring.java:96   | PAGE
+2021-11-12 12:58:23,871 INFO [Changing Time Signatures]                Voice.java:293  | Measure{#9P1} Voice{#1 excess:1/8} too long
+2021-11-12 12:58:23,872 INFO [Changing Time Signatures]            SheetStub.java:1109 | Stub#1 storing
+2021-11-12 12:58:23,885 INFO [Changing Time Signatures]                 Book.java:2144 | Stored /book.xml
+2021-11-12 12:58:23,910 INFO [Changing Time Signatures]           DataHolder.java:297  | Stored /sheet#1/BINARY.png
+2021-11-12 12:58:24,160 INFO [Changing Time Signatures]                Sheet.java:1285 | Stored /sheet#1/sheet#1.xml
+2021-11-12 12:58:24,164 INFO [Changing Time Signatures]            SheetStub.java:1114 | Disposed sheet
+2021-11-12 12:58:24,322 INFO [Changing Time Signatures]            SheetStub.java:688  | Loaded /sheet#1/sheet#1.xml
+2021-11-12 12:58:24,323 INFO [Changing Time Signatures]                 Book.java:1923 | Scores built: 1
+2021-11-12 12:58:24,541 INFO [Changing Time Signatures]      PartwiseBuilder.java:2172 | Exporting sheet(s): [#1]
+2021-11-12 12:58:24,572 INFO [Changing Time Signatures]        ScoreExporter.java:92   | Score Changing Time Signatures exported to E:\Coding\Transpose\OMR-POC\output\simple\Changing Time Signatures\Changing Time Signatures.mxl
+2021-11-12 12:58:24,634 INFO [Changing Time Signatures]                 Book.java:2144 | Stored /book.xml
+2021-11-12 12:58:24,635 INFO [Changing Time Signatures]                 Book.java:2090 | Book stored as E:\Coding\Transpose\OMR-POC\output\simple\Changing Time Signatures\Changing Time Signatures.omr

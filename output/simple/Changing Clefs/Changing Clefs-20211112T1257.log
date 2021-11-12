@@ -1,0 +1,70 @@
+2021-11-12 12:57:57,561 INFO [Changing Clefs]                 Book.java:568  | 1 sheet in .\samples\simple\Changing Clefs.png
+2021-11-12 12:57:57,698 INFO []                 Book.java:2144 | Stored /book.xml
+2021-11-12 12:57:57,699 INFO []                 Book.java:2090 | Book stored as E:\Coding\Transpose\OMR-POC\output\simple\Changing Clefs\Changing Clefs.omr
+2021-11-12 12:57:57,703 INFO []                 Book.java:1803 | Book reaching PAGE on sheets:[#1]
+2021-11-12 12:57:57,705 INFO [Changing Clefs]       StepMonitoring.java:96   | LOAD
+2021-11-12 12:57:57,826 INFO [Changing Clefs]                 Book.java:1665 | Loaded image 1 1646x2134 from .\samples\simple\Changing Clefs.png
+2021-11-12 12:57:57,831 INFO [Changing Clefs]            ImageUtil.java:88   | Converting max RGB to gray
+2021-11-12 12:57:57,947 INFO [Changing Clefs]       StepMonitoring.java:96   | BINARY
+2021-11-12 12:57:58,232 INFO [Changing Clefs]       StepMonitoring.java:96   | SCALE
+2021-11-12 12:57:58,245 INFO [Changing Clefs]         ScaleBuilder.java:662  | Other combo peak too different (151,152,152), discarded
+2021-11-12 12:57:58,249 INFO [Changing Clefs]         ScaleBuilder.java:234  | Beam  guessed height:  9 -- 0.50 of [5..13] range
+2021-11-12 12:57:58,251 INFO [Changing Clefs]         ScaleBuilder.java:253  | Beam measured height:  9 -- 0.50 of [5..13] range at 391% of needed quorum
+2021-11-12 12:57:58,251 INFO [Changing Clefs]         ScaleBuilder.java:266  | Beam height: 9
+2021-11-12 12:57:58,252 INFO [Changing Clefs]            ScaleStep.java:86   | Scale{line(3,4,5) interline(14,14,15) beam(9)}
+2021-11-12 12:57:58,253 INFO [Changing Clefs]       StepMonitoring.java:96   | GRID
+2021-11-12 12:57:58,465 INFO [Changing Clefs]       LinesRetriever.java:439  | Global slope: -0.00687
+2021-11-12 12:57:58,488 INFO [Changing Clefs]    ClustersRetriever.java:266  | Retrieved line clusters: 4 of sizes [5] with interline(14,14,15)
+2021-11-12 12:57:58,556 INFO [Changing Clefs]            PeakGraph.java:181  | Systems: #1[1] #2[2] #3[3] #4[4]
+2021-11-12 12:57:58,814 INFO [Changing Clefs]        SystemManager.java:737  | Indentation detected for system#1
+2021-11-12 12:57:58,817 INFO [Changing Clefs]        SystemManager.java:838  | 1 part along 4 systems
+2021-11-12 12:57:58,819 INFO [Changing Clefs]       StepMonitoring.java:96   | HEADERS
+2021-11-12 12:57:59,033 INFO [Changing Clefs]      BasicClassifier.java:366  | Classifier loaded XML norms.
+2021-11-12 12:57:59,039 INFO [Changing Clefs]   AbstractClassifier.java:352  | Classifier data loaded from default uri jar:file:/E:/Coding/Transpose/audiveris/build/distributions/Audiveris/lib/audiveris.jar!/res/basic-classifier.zip
+2021-11-12 12:57:59,493 INFO [Changing Clefs]       StepMonitoring.java:96   | STEM_SEEDS
+2021-11-12 12:57:59,585 INFO [Changing Clefs]            ImageUtil.java:202  | Discarding alpha band ...
+2021-11-12 12:58:00,161 INFO [Changing Clefs]            ImageUtil.java:88   | Converting max RGB to gray
+2021-11-12 12:58:00,259 INFO [Changing Clefs]        StemSeedsStep.java:95   | stem(3 max:4)
+2021-11-12 12:58:00,285 INFO [Changing Clefs]       StepMonitoring.java:96   | BEAMS
+2021-11-12 12:58:01,404 INFO [Changing Clefs]       BlackHeadSizer.java:99   | Spots black-head retrieval diameter: 12.6
+2021-11-12 12:58:01,436 INFO [Changing Clefs]       BlackHeadSizer.java:247  | Core black head count: 38 blackHead(width:16.6~0.5 height:16.1~1.6)
+2021-11-12 12:58:01,439 INFO [Changing Clefs]       BlackHeadSizer.java:252  | MusicFont{name:MusicalSymbols pointSize:56}
+2021-11-12 12:58:01,575 INFO [Changing Clefs]       StepMonitoring.java:96   | LEDGERS
+2021-11-12 12:58:01,634 INFO [Changing Clefs]       StepMonitoring.java:96   | HEADS
+2021-11-12 12:58:03,353 INFO [Changing Clefs]        HeadSeedTally.java:208  | Scale information: HeadSeeds{NOTEHEAD_BLACK[L:-0.3,R:-0.4] NOTEHEAD_VOID[L:-0.5]}
+2021-11-12 12:58:03,354 INFO [Changing Clefs]       StepMonitoring.java:96   | STEMS
+2021-11-12 12:58:03,588 INFO [Changing Clefs]       StepMonitoring.java:96   | REDUCTION
+2021-11-12 12:58:03,639 INFO [Changing Clefs]        ReductionStep.java:118  | Stems free length median value: 49 pixels, 3.5 interlines
+2021-11-12 12:58:03,640 INFO [Changing Clefs]       StepMonitoring.java:96   | CUE_BEAMS
+2021-11-12 12:58:03,642 INFO [Changing Clefs]       StepMonitoring.java:96   | TEXTS
+2021-11-12 12:58:04,965 INFO [Changing Clefs]       StepMonitoring.java:96   | MEASURES
+2021-11-12 12:58:04,972 INFO [Changing Clefs]                 Page.java:273  | 4 raw measures: [1 in system#1, 1 in system#2, 1 in system#3, 1 in system#4]
+2021-11-12 12:58:04,974 INFO [Changing Clefs]       StepMonitoring.java:96   | CHORDS
+2021-11-12 12:58:04,986 INFO [Changing Clefs]       StepMonitoring.java:96   | CURVES
+2021-11-12 12:58:05,399 INFO [Changing Clefs]         SlursBuilder.java:160  | Slurs: 6
+2021-11-12 12:58:05,405 INFO [Changing Clefs]      SegmentsBuilder.java:114  | Segments: 2
+2021-11-12 12:58:05,412 INFO [Changing Clefs]       StepMonitoring.java:96   | SYMBOLS
+2021-11-12 12:58:05,969 INFO [Changing Clefs]         InterFactory.java:531  | No support yet for BREVE glyph#1831
+2021-11-12 12:58:05,997 INFO [Changing Clefs]       StepMonitoring.java:96   | LINKS
+2021-11-12 12:58:06,022 INFO [Changing Clefs]       StepMonitoring.java:96   | RHYTHMS
+2021-11-12 12:58:06,044 INFO [Changing Clefs]                Voice.java:293  | Measure{#1P1} Voice{#1 excess:23/8} too long
+2021-11-12 12:58:06,054 INFO [Changing Clefs]                Voice.java:293  | Measure{#2P1} Voice{#1 excess:29/8} too long
+2021-11-12 12:58:06,059 INFO [Changing Clefs]                Voice.java:293  | Measure{#3P1} Voice{#3 excess:9/4} too long
+2021-11-12 12:58:06,068 INFO [Changing Clefs]        MeasureRhythm.java:940  | Measure{#4P1} No timeOffset for HeadChordInter{#1714(0.895/0.895) stf:4 slot#7 dur:1/4}
+2021-11-12 12:58:06,071 INFO [Changing Clefs]                Voice.java:293  | Measure{#4P1} Voice{#5 excess:7/8} too long
+2021-11-12 12:58:06,076 INFO [Changing Clefs]       StepMonitoring.java:96   | PAGE
+2021-11-12 12:58:06,086 INFO [Changing Clefs]                Voice.java:293  | Measure{#1P1} Voice{#1 excess:23/8} too long
+2021-11-12 12:58:06,087 INFO [Changing Clefs]                Voice.java:293  | Measure{#2P1} Voice{#1 excess:29/8} too long
+2021-11-12 12:58:06,088 INFO [Changing Clefs]                Voice.java:293  | Measure{#3P1} Voice{#3 excess:9/4} too long
+2021-11-12 12:58:06,089 INFO [Changing Clefs]                Voice.java:293  | Measure{#4P1} Voice{#5 excess:7/8} too long
+2021-11-12 12:58:06,090 INFO [Changing Clefs]            SheetStub.java:1109 | Stub#1 storing
+2021-11-12 12:58:06,102 INFO [Changing Clefs]                 Book.java:2144 | Stored /book.xml
+2021-11-12 12:58:06,175 INFO [Changing Clefs]           DataHolder.java:297  | Stored /sheet#1/BINARY.png
+2021-11-12 12:58:06,566 INFO [Changing Clefs]                Sheet.java:1285 | Stored /sheet#1/sheet#1.xml
+2021-11-12 12:58:06,571 INFO [Changing Clefs]            SheetStub.java:1114 | Disposed sheet
+2021-11-12 12:58:06,850 INFO [Changing Clefs]            SheetStub.java:688  | Loaded /sheet#1/sheet#1.xml
+2021-11-12 12:58:06,853 INFO [Changing Clefs]                 Book.java:1923 | Scores built: 1
+2021-11-12 12:58:07,094 INFO [Changing Clefs]      PartwiseBuilder.java:2172 | Exporting sheet(s): [#1]
+2021-11-12 12:58:07,128 INFO [Changing Clefs]        ScoreExporter.java:92   | Score Changing Clefs exported to E:\Coding\Transpose\OMR-POC\output\simple\Changing Clefs\Changing Clefs.mxl
+2021-11-12 12:58:07,171 INFO [Changing Clefs]                 Book.java:2144 | Stored /book.xml
+2021-11-12 12:58:07,172 INFO [Changing Clefs]                 Book.java:2090 | Book stored as E:\Coding\Transpose\OMR-POC\output\simple\Changing Clefs\Changing Clefs.omr

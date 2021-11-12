@@ -1,0 +1,108 @@
+2021-11-12 12:57:31,829 INFO [Alto Clef]                 Book.java:568  | 1 sheet in .\samples\simple\Alto Clef.png
+2021-11-12 12:57:31,966 INFO []                 Book.java:2144 | Stored /book.xml
+2021-11-12 12:57:31,967 INFO []                 Book.java:2090 | Book stored as E:\Coding\Transpose\OMR-POC\output\simple\Alto Clef\Alto Clef.omr
+2021-11-12 12:57:31,971 INFO []                 Book.java:1803 | Book reaching PAGE on sheets:[#1]
+2021-11-12 12:57:31,975 INFO [Alto Clef]       StepMonitoring.java:96   | LOAD
+2021-11-12 12:57:32,128 INFO [Alto Clef]                 Book.java:1665 | Loaded image 1 1656x2143 from .\samples\simple\Alto Clef.png
+2021-11-12 12:57:32,132 INFO [Alto Clef]            ImageUtil.java:88   | Converting max RGB to gray
+2021-11-12 12:57:32,249 INFO [Alto Clef]       StepMonitoring.java:96   | BINARY
+2021-11-12 12:57:32,549 INFO [Alto Clef]       StepMonitoring.java:96   | SCALE
+2021-11-12 12:57:32,575 INFO [Alto Clef]         ScaleBuilder.java:234  | Beam  guessed height:  8 -- 0.50 of [5..11] range
+2021-11-12 12:57:32,578 INFO [Alto Clef]         ScaleBuilder.java:253  | Beam measured height:  8 -- 0.50 of [5..11] range at 643% of needed quorum
+2021-11-12 12:57:32,578 INFO [Alto Clef]         ScaleBuilder.java:266  | Beam height: 8
+2021-11-12 12:57:32,579 INFO [Alto Clef]            ScaleStep.java:86   | Scale{line(2,3,5) interline(11,12,13) beam(8)}
+2021-11-12 12:57:32,581 INFO [Alto Clef]       StepMonitoring.java:96   | GRID
+2021-11-12 12:57:33,193 INFO [Alto Clef]       LinesRetriever.java:439  | Global slope: 0.00000
+2021-11-12 12:57:33,265 INFO [Alto Clef]    ClustersRetriever.java:266  | Retrieved line clusters: 10 of sizes [5] with interline(11,12,13)
+2021-11-12 12:57:34,263 INFO [Alto Clef]            PeakGraph.java:181  | Systems: #1[1] #2[2] #3[3] #4[4] #5[5] #6[6] #7[7] #8[8] #9[9] #10[10]
+2021-11-12 12:57:35,369 INFO [Alto Clef]        SystemManager.java:737  | Indentation detected for system#2
+2021-11-12 12:57:35,371 INFO [Alto Clef]        SystemManager.java:737  | Indentation detected for system#4
+2021-11-12 12:57:35,373 INFO [Alto Clef]        SystemManager.java:782  | 3 pages found in sheet
+2021-11-12 12:57:35,374 INFO [Alto Clef]        SystemManager.java:838  | Page #1: 1 part along 1 system
+2021-11-12 12:57:35,374 INFO [Alto Clef]        SystemManager.java:838  | Page #2: 1 part along 2 systems
+2021-11-12 12:57:35,375 INFO [Alto Clef]        SystemManager.java:838  | Page #3: 1 part along 7 systems
+2021-11-12 12:57:35,382 INFO [Alto Clef]       StepMonitoring.java:96   | HEADERS
+2021-11-12 12:57:35,584 INFO [Alto Clef]      BasicClassifier.java:366  | Classifier loaded XML norms.
+2021-11-12 12:57:35,588 INFO [Alto Clef]   AbstractClassifier.java:352  | Classifier data loaded from default uri jar:file:/E:/Coding/Transpose/audiveris/build/distributions/Audiveris/lib/audiveris.jar!/res/basic-classifier.zip
+2021-11-12 12:57:35,981 WARN [Alto Clef]          ClefBuilder.java:577  | Staff#1 no header clef.
+2021-11-12 12:57:36,014 WARN [Alto Clef]          ClefBuilder.java:577  | Staff#2 no header clef.
+2021-11-12 12:57:36,209 WARN [Alto Clef]          ClefBuilder.java:577  | Staff#4 no header clef.
+2021-11-12 12:57:36,238 WARN [Alto Clef]          ClefBuilder.java:577  | Staff#5 no header clef.
+2021-11-12 12:57:36,282 WARN [Alto Clef]          ClefBuilder.java:577  | Staff#6 no header clef.
+2021-11-12 12:57:36,382 WARN [Alto Clef]          ClefBuilder.java:577  | Staff#7 no header clef.
+2021-11-12 12:57:36,396 WARN [Alto Clef]          ClefBuilder.java:577  | Staff#8 no header clef.
+2021-11-12 12:57:36,402 WARN [Alto Clef]          ClefBuilder.java:577  | Staff#9 no header clef.
+2021-11-12 12:57:36,472 WARN [Alto Clef]          ClefBuilder.java:577  | Staff#10 no header clef.
+2021-11-12 12:57:36,482 INFO [Alto Clef]       StepMonitoring.java:96   | STEM_SEEDS
+2021-11-12 12:57:36,535 INFO [Alto Clef]            ImageUtil.java:202  | Discarding alpha band ...
+2021-11-12 12:57:36,953 INFO [Alto Clef]            ImageUtil.java:88   | Converting max RGB to gray
+2021-11-12 12:57:37,071 INFO [Alto Clef]        StemSeedsStep.java:95   | stem(2 max:4)
+2021-11-12 12:57:37,152 INFO [Alto Clef]       StepMonitoring.java:96   | BEAMS
+2021-11-12 12:57:38,021 INFO [Alto Clef]       BlackHeadSizer.java:99   | Spots black-head retrieval diameter: 10.8
+2021-11-12 12:57:38,119 INFO [Alto Clef]       BlackHeadSizer.java:247  | Core black head count: 144 blackHead(width:17.2~0.4 height:13.8~0.8)
+2021-11-12 12:57:38,123 INFO [Alto Clef]       BlackHeadSizer.java:252  | MusicFont{name:MusicalSymbols pointSize:57}
+2021-11-12 12:57:38,413 INFO [Alto Clef]       StepMonitoring.java:96   | LEDGERS
+2021-11-12 12:57:38,821 INFO [Alto Clef]       StepMonitoring.java:96   | HEADS
+2021-11-12 12:57:39,315 INFO [Alto Clef]     NoteHeadsBuilder.java:972  | S#1 1 beams purged
+2021-11-12 12:57:39,316 INFO [Alto Clef]     NoteHeadsBuilder.java:976  | S#1 1 heads purged
+2021-11-12 12:57:39,519 INFO [Alto Clef]     NoteHeadsBuilder.java:972  | S#2 1 beams purged
+2021-11-12 12:57:39,520 INFO [Alto Clef]     NoteHeadsBuilder.java:976  | S#2 2 heads purged
+2021-11-12 12:57:40,162 INFO [Alto Clef]     NoteHeadsBuilder.java:972  | S#5 3 beams purged
+2021-11-12 12:57:40,164 INFO [Alto Clef]     NoteHeadsBuilder.java:976  | S#5 4 heads purged
+2021-11-12 12:57:40,547 INFO [Alto Clef]     NoteHeadsBuilder.java:972  | S#7 12 beams purged
+2021-11-12 12:57:40,548 INFO [Alto Clef]     NoteHeadsBuilder.java:976  | S#7 7 heads purged
+2021-11-12 12:57:40,734 INFO [Alto Clef]     NoteHeadsBuilder.java:972  | S#8 7 beams purged
+2021-11-12 12:57:40,735 INFO [Alto Clef]     NoteHeadsBuilder.java:976  | S#8 1 heads purged
+2021-11-12 12:57:41,059 INFO [Alto Clef]        HeadSeedTally.java:208  | Scale information: HeadSeeds{NOTEHEAD_BLACK[L:1.1,R:0.9] NOTEHEAD_VOID[L:-0.0]}
+2021-11-12 12:57:41,061 INFO [Alto Clef]       StepMonitoring.java:96   | STEMS
+2021-11-12 12:57:42,177 INFO [Alto Clef]       StepMonitoring.java:96   | REDUCTION
+2021-11-12 12:57:42,386 INFO [Alto Clef]        ReductionStep.java:118  | Stems free length median value: 41 pixels, 3.4 interlines
+2021-11-12 12:57:42,388 INFO [Alto Clef]       StepMonitoring.java:96   | CUE_BEAMS
+2021-11-12 12:57:42,390 INFO [Alto Clef]       StepMonitoring.java:96   | TEXTS
+2021-11-12 12:57:47,706 INFO [Alto Clef]             TextWord.java:243  |       abnormal font ratio 2.37 TextWord{ """ bounds[1092,394,18,5] conf:0.72 base[1092,410]-[1110,410] FontInfo{DejaVu_Sans_Ultra-Light 29}}
+2021-11-12 12:57:47,734 INFO [Alto Clef]             TextWord.java:243  |       abnormal font ratio 2.69 TextWord{ "v" bounds[1319,1669,32,12] conf:0.66 base[1319,1681]-[1351,1681] FontInfo{DejaVu_Sans_Ultra-Light 25}}
+2021-11-12 12:57:47,752 INFO [Alto Clef]       StepMonitoring.java:96   | MEASURES
+2021-11-12 12:57:47,766 INFO [Alto Clef]                 Page.java:273  | 6 raw measures: [6 in system#1]
+2021-11-12 12:57:47,767 INFO [Alto Clef]                 Page.java:273  | 11 raw measures: [5 in system#2, 6 in system#3]
+2021-11-12 12:57:47,768 INFO [Alto Clef]                 Page.java:273  | 36 raw measures: [7 in system#4, 8 in system#5, 6 in system#6, 4 in system#7, 4 in system#8, 3 in system#9, 4 in system#10]
+2021-11-12 12:57:47,769 INFO [Alto Clef]       StepMonitoring.java:96   | CHORDS
+2021-11-12 12:57:47,793 INFO [Alto Clef]       StepMonitoring.java:96   | CURVES
+2021-11-12 12:57:49,491 INFO [Alto Clef]         SlursBuilder.java:160  | Slurs: 151
+2021-11-12 12:57:50,039 INFO [Alto Clef]      SegmentsBuilder.java:114  | Segments: 80
+2021-11-12 12:57:50,053 INFO [Alto Clef]       StepMonitoring.java:96   | SYMBOLS
+2021-11-12 12:57:51,755 INFO [Alto Clef]         InterFactory.java:531  | No support yet for BREVE glyph#12424
+2021-11-12 12:57:51,924 INFO [Alto Clef]       StepMonitoring.java:96   | LINKS
+2021-11-12 12:57:51,928 INFO [Alto Clef]        SymbolsLinker.java:161  | No chord near direction SentenceInter{#9906(0.598) stf:1 BS-33 Direction} for Violin Ücœt
+2021-11-12 12:57:52,041 INFO [Alto Clef]       StepMonitoring.java:96   | RHYTHMS
+2021-11-12 12:57:52,059 INFO [Alto Clef]                Voice.java:293  | Measure{#2P1} Voice{#1 excess:1/8} too long
+2021-11-12 12:57:52,068 INFO [Alto Clef]                Voice.java:293  | Measure{#4P1} Voice{#1 excess:1/2} too long
+2021-11-12 12:57:52,110 INFO [Alto Clef]        MeasureRhythm.java:940  | Measure{#19P1} No timeOffset for HeadChordInter{#10282(0.911/0.911) stf:6 slot#5 dur:3/8}
+2021-11-12 12:57:52,137 INFO [Alto Clef]       StepMonitoring.java:96   | PAGE
+2021-11-12 12:57:52,139 INFO [Alto Clef]       SheetReduction.java:167  | Gutter. Different glyphs 3/4 PedalInter{#13430(0.484/0.484) PEDAL_UP_MARK} vs SlurInter{#10541(0.669/0.947) SLUR_ABOVE}
+2021-11-12 12:57:52,142 INFO [Alto Clef]       SheetReduction.java:167  | Gutter. Different glyphs 3/4 PedalInter{#13430(0.484/0.484) PEDAL_UP_MARK} vs AlterInter{#13625(0.476/0.730) stf:4 SHARP p:-7.0}
+2021-11-12 12:57:52,152 INFO [Alto Clef]                Voice.java:293  | Measure{#2P1} Voice{#1 excess:1/8} too long
+2021-11-12 12:57:52,153 INFO [Alto Clef]                Voice.java:293  | Measure{#4P1} Voice{#1 excess:1/2} too long
+2021-11-12 12:57:52,154 WARN [Alto Clef]         MeasureFixer.java:327  | System#2 No target duration for measures local IDs [1, 2, 3, 4, 5], please check time signatures
+2021-11-12 12:57:52,154 WARN [Alto Clef]         MeasureFixer.java:327  | System#3 No target duration for measures local IDs [6, 7, 8, 9, 10, 11], please check time signatures
+2021-11-12 12:57:52,155 WARN [Alto Clef]         MeasureFixer.java:327  | System#4 No target duration for measures local IDs [1, 2, 3, 4, 5, 6, 7], please check time signatures
+2021-11-12 12:57:52,156 WARN [Alto Clef]         MeasureFixer.java:327  | System#5 No target duration for measures local IDs [8, 9, 10, 11, 12, 13, 14, 15], please check time signatures
+2021-11-12 12:57:52,156 WARN [Alto Clef]         MeasureFixer.java:327  | System#6 No target duration for measures local IDs [16, 17, 18, 19, 20, 21], please check time signatures
+2021-11-12 12:57:52,157 WARN [Alto Clef]         MeasureFixer.java:327  | System#7 No target duration for measures local IDs [22, 23, 24, 25], please check time signatures
+2021-11-12 12:57:52,158 WARN [Alto Clef]         MeasureFixer.java:327  | System#8 No target duration for measures local IDs [26, 27, 28, 29], please check time signatures
+2021-11-12 12:57:52,158 WARN [Alto Clef]         MeasureFixer.java:327  | System#9 No target duration for measures local IDs [30, 31, 32], please check time signatures
+2021-11-12 12:57:52,159 WARN [Alto Clef]         MeasureFixer.java:327  | System#10 No target duration for measures local IDs [33, 34, 35, 36], please check time signatures
+2021-11-12 12:57:52,160 INFO [Alto Clef]            SheetStub.java:1109 | Stub#1 storing
+2021-11-12 12:57:52,173 INFO [Alto Clef]                 Book.java:2144 | Stored /book.xml
+2021-11-12 12:57:52,242 INFO [Alto Clef]           DataHolder.java:297  | Stored /sheet#1/BINARY.png
+2021-11-12 12:57:53,558 INFO [Alto Clef]                Sheet.java:1285 | Stored /sheet#1/sheet#1.xml
+2021-11-12 12:57:53,561 INFO [Alto Clef]            SheetStub.java:1114 | Disposed sheet
+2021-11-12 12:57:54,448 INFO [Alto Clef]            SheetStub.java:688  | Loaded /sheet#1/sheet#1.xml
+2021-11-12 12:57:54,450 INFO [Alto Clef]                 Book.java:1923 | Scores built: 3
+2021-11-12 12:57:54,679 INFO [Alto Clef]      PartwiseBuilder.java:2172 | Exporting sheet(s): [#1]
+2021-11-12 12:57:54,713 INFO [Alto Clef]        ScoreExporter.java:92   | Score Alto Clef.mvt1 exported to E:\Coding\Transpose\OMR-POC\output\simple\Alto Clef\Alto Clef.mvt1.mxl
+2021-11-12 12:57:54,716 INFO [Alto Clef]      PartwiseBuilder.java:2172 | Exporting sheet(s): [#1]
+2021-11-12 12:57:54,739 INFO [Alto Clef]        ScoreExporter.java:92   | Score Alto Clef.mvt2 exported to E:\Coding\Transpose\OMR-POC\output\simple\Alto Clef\Alto Clef.mvt2.mxl
+2021-11-12 12:57:54,740 INFO [Alto Clef]      PartwiseBuilder.java:2172 | Exporting sheet(s): [#1]
+2021-11-12 12:57:54,783 INFO [Alto Clef]        ScoreExporter.java:92   | Score Alto Clef.mvt3 exported to E:\Coding\Transpose\OMR-POC\output\simple\Alto Clef\Alto Clef.mvt3.mxl
+2021-11-12 12:57:54,844 INFO [Alto Clef]                 Book.java:2144 | Stored /book.xml
+2021-11-12 12:57:54,845 INFO [Alto Clef]                 Book.java:2090 | Book stored as E:\Coding\Transpose\OMR-POC\output\simple\Alto Clef\Alto Clef.omr
