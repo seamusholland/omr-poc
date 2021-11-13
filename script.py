@@ -4,7 +4,7 @@ import subprocess
 
 def main():
     process('simple')
-    process('complext')
+    process('complex')
     process('expressions')
 
 
